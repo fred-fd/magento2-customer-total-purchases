@@ -1,0 +1,10 @@
+<?php
+/**
+ * \Freddev\PdpCustomText\TotalPurchases\Index
+ */
+if($block->isModuleEnable()):
+?>
+<div class="ctp-success-content">
+    <?= __('Total Purchases Amount'); ?>: <?= $block->getTotalPurchasesAmount();?>
+</div>
+<? endif; ?>
